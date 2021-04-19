@@ -1,0 +1,3 @@
+﻿  OrderedMap.cpp
+C:\Users\skhat\Documents\Coding Projects\School\COP3530\project_3\project_3\OrderedMap.cpp(84,23): warning C4018: '<': signed/unsigned mismatch
+  project_3.vcxproj -> C:\Users\skhat\Documents\Coding Projects\School\COP3530\project_3\Debug\project_3.exe
