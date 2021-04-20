@@ -1,0 +1,20 @@
+﻿  project_3.cpp
+C:\Users\skhat\Documents\Coding Projects\School\COP3530\Clone\COP3530-Project-3\project_3\Node.h(53,9): warning C4553: '==': result of expression not used; did you intend '='?
+C:\Users\skhat\Documents\Coding Projects\School\COP3530\Clone\COP3530-Project-3\project_3\Node.h(55,10): warning C4553: '==': result of expression not used; did you intend '='?
+C:\Users\skhat\Documents\Coding Projects\School\COP3530\Clone\COP3530-Project-3\project_3\Node.h(57,11): warning C4553: '==': result of expression not used; did you intend '='?
+C:\Users\skhat\Documents\Coding Projects\School\COP3530\Clone\COP3530-Project-3\project_3\Node.h(71,21): warning C4267: 'return': conversion from 'size_t' to 'const int', possible loss of data
+C:\Users\skhat\Documents\Coding Projects\School\COP3530\Clone\COP3530-Project-3\project_3\project_3.cpp(30,25): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\skhat\Documents\Coding Projects\School\COP3530\Clone\COP3530-Project-3\project_3\project_3.cpp(31,26): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\skhat\Documents\Coding Projects\School\COP3530\Clone\COP3530-Project-3\project_3\project_3.cpp(33,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\skhat\Documents\Coding Projects\School\COP3530\Clone\COP3530-Project-3\project_3\project_3.cpp(42,29): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\skhat\Documents\Coding Projects\School\COP3530\Clone\COP3530-Project-3\project_3\project_3.cpp(43,38): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\skhat\Documents\Coding Projects\School\COP3530\Clone\COP3530-Project-3\project_3\project_3.cpp(106,22): warning C4101: 'e': unreferenced local variable
+C:\Users\skhat\Documents\Coding Projects\School\COP3530\Clone\COP3530-Project-3\project_3\project_3.cpp(121,22): warning C4101: 'e': unreferenced local variable
+C:\Users\skhat\Documents\Coding Projects\School\COP3530\Clone\COP3530-Project-3\project_3\project_3.cpp(219,22): warning C4101: 'e': unreferenced local variable
+C:\Users\skhat\Documents\Coding Projects\School\COP3530\Clone\COP3530-Project-3\project_3\project_3.cpp(234,22): warning C4101: 'e': unreferenced local variable
+C:\Users\skhat\Documents\Coding Projects\School\COP3530\Clone\COP3530-Project-3\project_3\project_3.cpp(345,22): warning C4101: 'e': unreferenced local variable
+C:\Users\skhat\Documents\Coding Projects\School\COP3530\Clone\COP3530-Project-3\project_3\project_3.cpp(357,22): warning C4101: 'e': unreferenced local variable
+C:\Users\skhat\Documents\Coding Projects\School\COP3530\Clone\COP3530-Project-3\project_3\project_3.cpp(417,22): warning C4101: 'e': unreferenced local variable
+C:\Users\skhat\Documents\Coding Projects\School\COP3530\Clone\COP3530-Project-3\project_3\project_3.cpp(429,22): warning C4101: 'e': unreferenced local variable
+C:\Users\skhat\Documents\Coding Projects\School\COP3530\Clone\COP3530-Project-3\project_3\Node.h(71): warning C4172: returning address of local variable or temporary
+  project_3.vcxproj -> C:\Users\skhat\Documents\Coding Projects\School\COP3530\Clone\COP3530-Project-3\x64\Debug\project_3.exe

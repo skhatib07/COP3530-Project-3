@@ -77,6 +77,7 @@ Start:
 		ifstream data;
 		data.open("data/data.csv");
 		if (!data.is_open()) {
+			cout << endl;
 			cout << "File not found, returning to menu." << endl;
 			cout << endl;
 			goto Start;
@@ -108,8 +109,11 @@ Start:
 			}
 
 			getline(lineStream, cell, ',');
-			cell.pop_back();
-			cell.pop_back();
+
+			if (cell.size() > 2) {
+				cell.pop_back();
+				cell.pop_back();
+			}
 
 			try {
 				lat1 = stof(cell);
@@ -186,6 +190,7 @@ Start:
 		ifstream data;
 		data.open("data/data.csv");
 		if (!data.is_open()) {
+			cout << endl;
 			cout << "File not found, returning to menu." << endl;
 			cout << endl;
 			goto Start;
@@ -217,8 +222,11 @@ Start:
 			}
 
 			getline(lineStream, cell, ',');
-			cell.pop_back();
-			cell.pop_back();
+
+			if (cell.size() > 2) {
+				cell.pop_back();
+				cell.pop_back();
+			}
 
 			try {
 				lat1 = stof(cell);
@@ -304,6 +312,7 @@ Start:
 		ifstream data;
 		data.open("data/data.csv");
 		if (!data.is_open()) {
+			cout << endl;
 			cout << "File not found. Cannot create Min Heap. Returning to menu." << endl;
 			cout << endl;
 			goto Start;
@@ -381,6 +390,7 @@ Start:
 
 		data.open("data/data.csv");
 		if (!data.is_open()) {
+			cout << endl;
 			cout << "File not found. Cannot create Ordered Map. Returning to menu." << endl;
 			cout << endl;
 			goto Start;
