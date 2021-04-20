@@ -280,11 +280,11 @@ Start:
 	}
 	// Open about Page (README)
 	else if (selection == 6) {
-		ShellExecuteA(GetDesktopWindow(), "open", "About\\README.md", NULL, NULL, SW_SHOWNORMAL);
+		ShellExecuteA(GetDesktopWindow(), "open", ".github\\README.md", NULL, NULL, SW_SHOWNORMAL);
 	}
 	// Open documentation
 	else if (selection == 7) {
-		ShellExecuteA(GetDesktopWindow(), "open", "About\\Documentation.pdf", NULL, NULL, SW_SHOWNORMAL);
+		ShellExecuteA(GetDesktopWindow(), "open", ".github\\Documentation.pdf", NULL, NULL, SW_SHOWNORMAL);
 	}
 	// Exit
 	else if (selection == 8) {
