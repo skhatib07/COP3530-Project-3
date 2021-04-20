@@ -1,16 +1,16 @@
-# project_3
+**Welcome to Vaccinapp!**
+Vaccinapp finds the closest COVID-19 vaccination sites to you using your GPS coordinates. Vaccinapp uses either a Min Heap or an Ordered Map to geolocate the closest vaccination sites in your vacinity.
 
-A new Flutter project.
+Through the app, you can:
+1. Find the closest vaccination sites using a Min Heap
+2. Find the closest vaccination sites using an Ordered Map
+3. Compare the time it took to find the closest sites using a Min Heap versus an Ordered Map
+4. Retrieve the current User GPS coordinates
+5. Edit the current GPS coordinates
 
-## Getting Started
+and **MUCH** more!
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+Vaccinapp was developed using open sourced data found here: https://www.vaccinespotter.org/api/
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Link to a video of Vaccinapp in action using GPS coordinates in Gainesville, Florida: 
