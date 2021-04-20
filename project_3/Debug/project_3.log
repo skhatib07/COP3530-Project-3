@@ -1,7 +1,0 @@
-﻿  project_3.cpp
-C:\Users\skhat\Documents\Coding Projects\School\COP3530\project_3\project_3\Node.h(53,9): warning C4553: '==': result of expression not used; did you intend '='?
-C:\Users\skhat\Documents\Coding Projects\School\COP3530\project_3\project_3\Node.h(55,10): warning C4553: '==': result of expression not used; did you intend '='?
-C:\Users\skhat\Documents\Coding Projects\School\COP3530\project_3\project_3\Node.h(57,11): warning C4553: '==': result of expression not used; did you intend '='?
-C:\Users\skhat\Documents\Coding Projects\School\COP3530\project_3\project_3\project_3.cpp(38,17): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
-C:\Users\skhat\Documents\Coding Projects\School\COP3530\project_3\project_3\Node.h(71): warning C4172: returning address of local variable or temporary
-  project_3.vcxproj -> C:\Users\skhat\Documents\Coding Projects\School\COP3530\project_3\Debug\project_3.exe
