@@ -91,7 +91,7 @@ Start:
 			getline(lineStream, cell, '\t');
 			in.append(cell);
 			in.append("#");
-			getline(lineStream, cell, '\t'); 
+			getline(lineStream, cell, '\t');
 			in.append(cell);
 			in.append("#");
 			r->insert(make_pair(distance(latitude, longitude, lat1, lon1), in));

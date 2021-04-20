@@ -20,6 +20,7 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
+    <keyword>Qt4VSv1.0</keyword>
     <Keyword>Win32Proj</Keyword>
     <ProjectGuid>{1af7a297-eb0b-48c0-8da0-da38acae44bf}</ProjectGuid>
     <RootNamespace>project3</RootNamespace>

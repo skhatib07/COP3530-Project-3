@@ -1,3 +1,16 @@
-﻿  OrderedMap.cpp
-C:\Users\skhat\Documents\Coding Projects\School\COP3530\project_3\project_3\OrderedMap.cpp(84,23): warning C4018: '<': signed/unsigned mismatch
+﻿  project_3.cpp
+C:\Users\skhat\Documents\Coding Projects\School\COP3530\project_3\project_3\project_3.cpp(19,25): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\skhat\Documents\Coding Projects\School\COP3530\project_3\project_3\project_3.cpp(20,26): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\skhat\Documents\Coding Projects\School\COP3530\project_3\project_3\project_3.cpp(22,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\skhat\Documents\Coding Projects\School\COP3530\project_3\project_3\project_3.cpp(31,29): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\skhat\Documents\Coding Projects\School\COP3530\project_3\project_3\project_3.cpp(32,38): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\skhat\Documents\Coding Projects\School\COP3530\project_3\project_3\project_3.cpp(115,11): warning C4477: 'printf' : format string '%5s' requires an argument of type 'char *', but variadic argument 1 has type 'double'
+C:\Users\skhat\Documents\Coding Projects\School\COP3530\project_3\project_3\project_3.cpp(115,11): warning C4477: 'printf' : format string '%5s' requires an argument of type 'char *', but variadic argument 2 has type 'std::string'
+C:\Users\skhat\Documents\Coding Projects\School\COP3530\project_3\project_3\project_3.cpp(115,11): warning C4477: 'printf' : format string '%5s' requires an argument of type 'char *', but variadic argument 3 has type 'std::string'
+C:\Users\skhat\Documents\Coding Projects\School\COP3530\project_3\project_3\project_3.cpp(115,11): warning C4477: 'printf' : format string '%5s' requires an argument of type 'char *', but variadic argument 4 has type 'std::string'
+C:\Users\skhat\Documents\Coding Projects\School\COP3530\project_3\project_3\project_3.cpp(159,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\skhat\Documents\Coding Projects\School\COP3530\project_3\project_3\project_3.cpp(173,12): warning C4477: 'printf' : format string '%5s' requires an argument of type 'char *', but variadic argument 1 has type 'double'
+C:\Users\skhat\Documents\Coding Projects\School\COP3530\project_3\project_3\project_3.cpp(173,12): warning C4477: 'printf' : format string '%5s' requires an argument of type 'char *', but variadic argument 2 has type 'std::string'
+C:\Users\skhat\Documents\Coding Projects\School\COP3530\project_3\project_3\project_3.cpp(173,12): warning C4477: 'printf' : format string '%5s' requires an argument of type 'char *', but variadic argument 3 has type 'std::string'
+C:\Users\skhat\Documents\Coding Projects\School\COP3530\project_3\project_3\project_3.cpp(173,12): warning C4477: 'printf' : format string '%5s' requires an argument of type 'char *', but variadic argument 4 has type 'std::string'
   project_3.vcxproj -> C:\Users\skhat\Documents\Coding Projects\School\COP3530\project_3\Debug\project_3.exe

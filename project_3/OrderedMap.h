@@ -5,6 +5,7 @@
 class OrderedMap
 {
 	Node* root;
+	int _size;
 
 	void insert(Node* node, Node* insert, float key);
 	Node* RotateLeft(Node* node);
@@ -17,6 +18,7 @@ public:
 	OrderedMap();
 	OrderedMap(float key, string val);
 	OrderedMap(Node* _root);
+	const int size();
 	vector<Node*> inorderVector();
 	void insert(float key, string val);
 	void insert(vector<pair<float, string>> inserts);

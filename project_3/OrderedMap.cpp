@@ -1,12 +1,19 @@
 #include "OrderedMap.h"
 
-OrderedMap::OrderedMap() { root = nullptr; }
+OrderedMap::OrderedMap() {
+    root = nullptr;
+    _size = 0;
+}
 
 OrderedMap::OrderedMap(float key, string val) {
     insert(key, val);
+    _size = 1;
 }
 
-OrderedMap::OrderedMap(Node* _root) { root = _root; }
+OrderedMap::OrderedMap(Node* _root) {
+    root = _root;
+    _size = 1;
+}
 
 void OrderedMap::insert(Node* node, Node* in, float key) {
 
@@ -22,6 +29,7 @@ void OrderedMap::insert(Node* node, Node* in, float key) {
         {
             node->left = in;
             in->AssignParent(node);
+            _size++;
             return;
         }
         else
@@ -33,6 +41,7 @@ void OrderedMap::insert(Node* node, Node* in, float key) {
         {
             node->right = in;
             in->AssignParent(node);
+            _size++;
             return;
         }
         else
@@ -44,6 +53,7 @@ void OrderedMap::insert(float key, string val) {
     if (!root) {
         Node* in = new Node(key, val, false);
         root = in;
+        _size = 1;
         return;
     }
     
@@ -60,6 +70,7 @@ void OrderedMap::insert(float key, string val) {
         {
             root->left = in;
             in->parent = root;
+            _size++;
             return;
         }
         else
@@ -71,6 +82,7 @@ void OrderedMap::insert(float key, string val) {
         {
             root->right = in;
             in->parent = root;
+            _size++;
             return;
         }
         else
@@ -282,4 +294,6 @@ vector<Node*> OrderedMap::inorderVector() {
     traverseInorder(root, &inorderTransverse);
     return inorderTransverse;
 }
+
+const int OrderedMap::size() { return _size; }
 
