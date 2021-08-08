@@ -1,6 +1,6 @@
 **Welcome to Vaccinapp!**
 
-Vaccinapp was a project I completed for my **Data Structures class at the University of Florida!** The application is **Command-Line based and coded in C++**
+Vaccinapp is a project I completed for my **Data Structures class at the University of Florida!** The application is **Command-Line based and coded in C++**
 
 Vaccinapp finds the closest COVID-19 vaccination sites to you using your GPS coordinates. Vaccinapp uses either a Min Heap or an Ordered Map to geolocate the closest vaccination sites in your vicinity.
 
